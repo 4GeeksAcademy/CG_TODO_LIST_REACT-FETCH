@@ -10,3 +10,41 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+lista {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.title {
+    margin-top: 50px;
+    margin-left: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.caja {
+    background-color:lightgray;
+    border-radius: 10px;
+    padding: 15px;
+    padding-bottom: 1px;
+}
+
+.cruz {
+    margin-left: 20px;
+    border: none;
+    background: none;
+    color:darkred
+}
+
+.tasks {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 2px;
+    border-color: rgba(64, 64, 64, 0.675);
+    border-style: solid;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
